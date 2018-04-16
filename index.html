@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Studebaker Portfolio</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="">
+	<div class="uk-container uk-container-small Site">
+		<header>
+			<nav class="uk-navbar-container uk-margin" uk-navbar>
+				<div class="uk-navbar-left">
+					<a class="uk-navbar-item uk-logo" href="#">
+						<img src="images/letter-k-logo.png" class="letter-k" alt="Kristen Studebaker logo">
+						Kristen Studebaker
+					</a>
+				</div>
+				<div class="uk-navbar-right">
+					<ul class="uk-navbar-nav uk-visible@s">
+						<li class="first-link"><a href="index.html">Home</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="http://www.kristenstudebaker.com" target="_blank">About</a></li>
+					</ul>
+					<div class="uk-offcanvas-content uk-hidden@s">
+
+						<span uk-icon="icon: menu" uk-toggle="target: #offcanvas-nav-primary"></span>
+
+						<div id="offcanvas-nav-primary" uk-offcanvas>
+							<div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+								<button class="uk-offcanvas-close" type="button" uk-close></button>
+
+								<ul class="uk-nav uk-align-center uk-text-center">
+									<li class="first-link"><a href="index.html">Home</a></li>
+									<li><a href="portfolio.html">Portfolio</a></li>
+									<li><a href="http://www.kristenstudebaker.com" target="_blank">About</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="Site-content" uk-grid>
+
+			<section class="uk-width-1-1 uk-margin-medium-top">
+				<div id="live-zone">
+					<div id="div-one">
+						<img id="img-one" src="images/kristen-headshot-painted.png">
+					</div>
+					<div class="designer-text">
+						<p class="uk-h2">Designer
+						</p>
+						<p>Graphic designer with a passion for advertising & branding.
+						</p>
+					</div>
+					<div class="coder-text">
+						<p class="uk-h2">&lt;Coder&gt;
+						</p>
+						<p>Front End Developer who focuses on writing code for easy use for web viewers.
+						</p>
+					</div>
+					<div id="div-two">
+						<img id="img-two" src="images/kristen-headshot.png">
+					</div>
+				</div>
+			</section>
+
+			<section class="uk-child-width-1-3@xl uk-child-width-1-1@m uk-child-width-1-1@s" uk-grid>
+				<div><img src="images/paint.png" alt="Paint Pallete" class="service-icon">
+					<p>Need a company logo? Whether it's a brochure design or a website logo, I provide graphic and logo design services to meet your needs and exceed your expectations.</p>
+				</div>
+				<div><img src="images/computer.png" alt="Computer" class="service-icon">
+					<p>Interested in a new website? Creating websites is my forte, and I can work with you to create an interesting and user-friendly site, optimized for any size device.</p>
+				</div>
+				<div><img src="images/consulting.png" alt="Consulting" class="service-icon">
+					<p>Have a question about marketing your business or interested in the business consulting services I provide? Click on Email link at the bottom of the page, I'll get back to you within twenty-four hours.</p>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer uk-margin-medium-top">
+			<div uk-grid>
+				<div class="uk-width-2-3@xl uk-width-1-2@m uk-width-1-1@s">
+
+					<ul class="uk-navbar-nav social">
+						<li><a href="mailto:kristenstudebaker@yahoo.com"><img src="images/yahoo.png" alt="Email me"></a></li>
+						<li><a href="https://www.linkedin.com/in/kristenstudebaker"><img src="images/linkedin.png" alt="Connect with me on LinkedIn"></a></li>
+						<li><a href="https://www.twitter.com/kristenstudebak"><img src="images/twitter.png" alt="Follow me on Twitter"></a></li>
+						<li><a tel="330-608-7709"><img src="images/phone.png" alt="Call me"></a></li>
+					</ul>
+
+				</div>
+				<div class="uk-width-1-3@xl uk-width-1-2@m uk-width-1-1@s uk-flex-first@m uk-margin-remove">
+					<div class="copyright">
+						<small>Copyright &copy; 2018 by Kristen Studebaker.</small>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/home.js"></script>
+</body>
+
+</html>

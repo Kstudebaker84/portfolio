@@ -1,0 +1,173 @@
+/* Base */
+body {
+background-color: #EBF2F2;
+overflow-x: hidden;
+}
+/* Typography */
+@media screen and (max-width:400px) {
+  h1 {
+    font-size: 1.7em;
+  }
+}
+/* Layout */
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+/* Header */
+.footer {
+  border-top: solid 2px #515252;
+  background-color: #EBF2F2;
+}
+.letter-k {
+    height: 45px;
+    margin-right: 15px;
+}
+header {
+  border-bottom: solid 2px #515252;
+  background-color: #EBF2F2;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background-color: #EBF2F2;
+}
+.uk-offcanvas {
+  width: 100%;
+}
+.uk-offcanvas-bar {
+  background-color: #EBF2F2;
+  width: 100%;
+}
+.uk-offcanvas-bar .uk-close {
+  color: black;
+}
+
+.uk-nav a {
+  color: black;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+.uk-nav a:hover, .uk-offcanvas-bar .uk-close:hover {
+  color: #666;
+}
+
+/* @media screen and (max-width: 320px) {
+  .grid-item {
+    max-width: 100%;
+  }
+} */
+
+/* Main */
+.sub-nav-wrap {
+  display: flex;
+  justify-content: center;
+}
+.date {
+  float: right;
+}
+.uk-card-default {
+  box-shadow: none;
+  border: .5em #BCEBDF solid;
+  background: #BCEBDF;
+}
+.uk-card-body {
+  padding: 0 .5em .7em;
+}
+/* .uk-card-title {
+  margin-bottom: .25em !important;
+} */
+/* Footer */
+.social {
+  display: flex;
+  justify-content: flex-end;
+}
+.copyright {
+  margin-top: 20px;
+}
+@media screen and (max-width:960px) {
+  .copyright {
+    margin-top: 0;
+  }
+}
+/* Images */
+.service-icon {
+  display: block;
+  margin: 0 auto;
+}
+.social img {
+  max-width: 30px;
+  height: auto;
+}
+
+
+#live-zone {
+  width: 100%;
+  height: 585px;
+  position: relative;
+}
+
+#live-zone img {
+    height:525px;/*Only here to ensure that my images are the same height*/
+    max-width: none;
+    position: absolute;
+    left: 200px;
+    /*display: block;
+    margin: 0 auto;*/
+}
+#img-one{
+    z-index:600;
+}
+#div-one{
+    width: 50%;
+    height: 525px;
+    overflow:hidden;
+    position:absolute;
+    /*width: 50%;
+  height: 525px;
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;*/
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  #live-zone img {
+      height: 325px;
+      max-width: none;
+      left: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #live-zone img {
+      height: 325px;
+      /*Only here to ensure that my images are the same height*/
+      max-width: none;
+      left: 20px;
+  }
+}
+
+#div-one, #div-two {
+  margin: 0 auto;
+}
+
+.designer-text, .coder-text {
+  position: absolute;
+  width: 200px;
+  top: 35%;
+}
+@media screen and (max-width:600px) {
+  .designer-text, .coder-text {
+    width: 100%;
+    top: 58%;
+  }
+}
+
+.coder-text {
+  right: 0;
+}
+/* Links */
